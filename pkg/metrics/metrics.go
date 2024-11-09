@@ -15,10 +15,10 @@ var (
         Help: "Current internet speed in Mbps.",
     })
 
-    CameraStatus = prometheus.NewGaugeVec(prometheus.GaugeOpts{
+    CameraStatus = prometheus.NewGauge(prometheus.GaugeOpts{
         Name: "raspberry_pi_camera_status",
         Help: "Camera status: 1 for active, 0 for inactive.",
-    }, []string{"camera_id"})
+    })
 )
 
 func init() {

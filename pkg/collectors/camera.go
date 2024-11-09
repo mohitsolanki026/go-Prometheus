@@ -1,8 +1,6 @@
 package collectors
 
-func GetCameraStatus(cameraID string) float64 {
-    if cameraID == "camera_1" {
-        return 1 // Active
-    }
+func GetCameraStatus() float64 {
+    
     return 0 // Inactive
 }
