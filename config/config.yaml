@@ -1,0 +1,6 @@
+scrape_interval: "4s"
+devices:
+  - name: "camera_1"
+    ip: "192.168.1.101"
+  - name: "camera_2"
+    ip: "192.168.1.102"
